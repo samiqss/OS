@@ -1,0 +1,7 @@
+GIT repository for csci360/lab01
+includes 
+
+1. A report in PDF format covering the goals of the assignment, what you did and what you learned
+2. Source code in C or C++
+3. A makefile with a target to build all executables
+4. A listing or description of output produced by your code

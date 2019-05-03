@@ -1,0 +1,28 @@
+*********************************************
+*description of output produced by your code*
+*********************************************
+1.the user is asked for a command that they wish to run
+2. the command is run and the output of that command is printed
+3. back to step1 then step2 until its terminated by ctr c
+
+**************************
+*transcript of the output*
+**************************
+
+alqususs@otter:~/csci360/lab01$ ./lab1
+
+ provide me with a command
+ls
+CSCI360_Lab1_Sami.pdf  lab1  lab1.cpp  lab1.o  makefile  README
+
+ provide me with a command
+ls
+CSCI360_Lab1_Sami.pdf  lab1  lab1.cpp  lab1.o  makefile  README
+
+ provide me with a command
+^C
+alqususs@otter:~/csci360/lab01$ 
+
+******************
+End of transcript*
+******************

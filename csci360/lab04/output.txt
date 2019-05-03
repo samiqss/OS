@@ -1,0 +1,62 @@
+**************************
+*transcript of the output*
+**************************
+
+*****************************************************************************************
+*SENDER*
+*****************************************************************************************
+lqususs@otter:~/csci360/lab04$ ./sender 
+Sender 
+key = 1040002
+id = 5799936
+Shared memory pointer is 0x7f222d316000
+time since last sender entry: 0 nanoseconds.
+type your message to shared memory: or type 'q' to quit both sender and receiver programs
+hello
+
+time since last sender entry: 32000 nanoseconds.
+type your message to shared memory: or type 'q' to quit both sender and receiver programs
+hi
+
+time since last sender entry: 21000 nanoseconds.
+type your message to shared memory: or type 'q' to quit both sender and receiver programs
+bye
+
+time since last sender entry: 21000 nanoseconds.
+type your message to shared memory: or type 'q' to quit both sender and receiver programs
+q
+
+quiting program..
+alqususs@otter:~/csci360/lab04$ 
+
+*******************************************************************************************
+*RECEIVER*
+*******************************************************************************************
+alqususs@otter:~/csci360/lab04$ ./receiver 
+Receiver
+key = 1040002
+id = 5799936
+Shared memory pointer is 0x7f426299d000
+time since last receiver entry: 0 nanoseconds.
+get the message from shared memory..
+Message: hello
+
+time since last receiver entry: 66000 nanoseconds.
+get the message from shared memory..
+Message: hi
+
+time since last receiver entry: 29000 nanoseconds.
+get the message from shared memory..
+Message: bye
+
+time since last receiver entry: 30000 nanoseconds.
+get the message from shared memory..
+Message: q
+
+Semaphore b destroyed
+Semaphore a destroyed
+shared memory destroyed
+quiting program..
+alqususs@otter:~/csci360/lab04$
+
+*******************************************END OF transcript************************************

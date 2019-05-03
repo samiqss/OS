@@ -1,0 +1,59 @@
+**************************
+*transcript of the output*
+**************************
+
+**************************
+*sender*
+**************************
+alqususs@otter:~/csci360/lab03$ ./sender 
+key = 1040002
+id = 4620288
+Shared memory pointer is 0x7f149428c000
+Write Data/message to send to receiver: samialqusus
+Shared Ram holds: samialqusus
+Write Data/message to send to receiver: sami al qusus
+Shared Ram holds: sami
+Write Data/message to send to receiver: Shared Ram holds: al
+Write Data/message to send to receiver: Shared Ram holds: qusus
+Write Data/message to send to receiver: hello
+Shared Ram holds: hello
+Write Data/message to send to receiver: hi
+Shared Ram holds: hi
+Write Data/message to send to receiver: this       
+Shared Ram holds: this
+Write Data/message to send to receiver: is    
+Shared Ram holds: is
+Write Data/message to send to receiver: working
+Shared Ram holds: working
+Write Data/message to send to receiver: ^C
+alqususs@otter:~/csci360/lab03$ ^C
+
+**************************
+*receiver*
+**************************
+alqususs@otter:~/csci360/lab03$ ./receiver 
+key = 1040002
+id = 4620288
+Shared memory pointer is 0x7fcc3ddac000
+get the message from shared memory..
+Message: samialqusus
+get the message from shared memory..
+Message: sami
+get the message from shared memory..
+Message: al
+get the message from shared memory..
+Message: qusus
+get the message from shared memory..
+Message: hello
+get the message from shared memory..
+Message: hi
+get the message from shared memory..
+Message: this
+get the message from shared memory..
+Message: is
+get the message from shared memory..
+Message: working
+^C
+alqususs@otter:~/csci360/lab03$ 
+
+

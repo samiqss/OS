@@ -1,0 +1,40 @@
+**************************
+*transcript of the output*
+**************************
+
+*****************************************************************************************
+*CLIENT*
+*****************************************************************************************
+alqususs@otter:~/csci360/lab05$ ./client 
+input a message
+hello server this is my message      
+Client msg to server: hello server this is my message
+Server ACK msg: hello server this is my message
+
+alqususs@otter:~/csci360/lab05$ ./client 
+input a message
+helloooooooooooooooooooooo serverrrrrrrrrrrrrrrrrrrrrrrr thisssssssssssssssssss isssssssssssssssss myyyyyyyyy messageeeeeeee ok bye
+Client msg to server: helloooooooooooooooooooooo serverrrrrrrrrrrrrrrrrrrrrrrr thisssssssssssssssssss isssssssssssssssss myyyyyyyyy messageeeeeeee ok bye
+Server ACK msg: helloooooooooooooooooooooo serverrrrrrrrrrrrrrrrrrrrrrrr thisssssssssssssssssss isssssssssssssssss myyyyyyyyy messageeeeeeee ok bye
+
+alqususs@otter:~/csci360/lab05$ 
+
+
+
+
+*******************************************************************************************
+*RECEIVER*
+*******************************************************************************************
+alqususs@otter:~/csci360/lab05$ ./server 
+Welcome to the Server
+message length received: 31
+hello server this is my message
+message length received: 131
+helloooooooooooooooooooooo serverrrrrrrrrrrrrrrrrrrrrrrr thisssssssssssssssssss isssssssssssssssss myyyyyyyyy messageeeeeeee ok bye
+^Z
+[1]+  Stopped                 ./server
+alqususs@otter:~/csci360/lab05$ 
+
+
+
+*******************************************END OF transcript************************************
